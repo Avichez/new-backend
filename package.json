@@ -1,0 +1,26 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "learning nodejs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Bogdan I.",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "v17.8.0"
+  }
+}
